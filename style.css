@@ -1,0 +1,89 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color:#FFD900;
+    width:100%;
+    height:120px;
+}
+#logo{
+    margin-top:30px;
+    margin-left:40px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+#informationalText{
+    background-color:#514988;
+    color:white;
+    width:60%;
+    height:694px;
+    font-size:30px;
+    font-weight: 400;
+    text-align: center;
+}
+#informationalText h1{
+    color: #F3C61F;
+    font-size:70px;
+    font-weight: 700;
+
+}
+#informationalText h2{
+    font-size:30px;
+    font-weight:700;
+}
+#informationalText p{
+    margin-top:50px;
+}
+#timervideo{
+    margin-left:15px;
+}
+.timer{
+    display: flex;
+    font-size:40px;
+    font-weight: 700;
+    color:#514988;
+    justify-content: center;
+    gap:15px;
+}
+
+#textovideo{
+    color:#E33881;
+    font-size:25px;
+    font-weight: 700;
+   
+}
+.video{
+    margin-left:0px;
+}
+footer p{
+    color:#F3C61F;
+    font-weight:700;
+    font-size:27px;
+    margin-left:15px;
+}
+.card{
+    display: grid;
+    grid-auto-flow:column;
+    gap:10px;
+}
+button{
+    background-color:#514988;
+    color:white;
+    width:580px;
+    height:138px;
+    border-radius:15px;
+    border:0px;
+    font-size:40px;
+    font-weight: 700;
+    margin-top:30px;
+    margin-right:40px;
+    margin-left:20px;
+}
+
+button:hover{
+    color: #F3C61F;
+}
