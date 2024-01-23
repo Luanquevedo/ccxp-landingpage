@@ -3,7 +3,7 @@ const hora = document.getElementById('hora');
 const minuto = document.getElementById('minuto');
 const segundo = document.getElementById('segundo');
 
-const evento = '31 dec 2023';
+const evento = '31 dec 2024';
 
 function countDown() {
     const dataEvent = new Date(evento);
